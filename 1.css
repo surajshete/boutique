@@ -1,0 +1,46 @@
+body{
+  background-image: url('coolHue-92FFC0-002661.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+  .card:hover{
+    background-color: #04AA6D;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+  .card-title{
+    color: black;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+   .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+   }
+.col-2 img{
+  max-width: 100%;
+  padding:  50px 0;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn{
+  display: inline-block;
+  background:#ff523b;
+  color: #fff;
+  border-radius: 30px;
+}
+.container-fluid li{
+  margin: 0 15px;
+}
